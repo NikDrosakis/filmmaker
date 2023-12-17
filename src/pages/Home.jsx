@@ -1,0 +1,27 @@
+import React, { Component } from "react";
+import Header from "../components/Header";
+import LatestBlog from "../components/LatestBlog";
+import ActionSection from "../components/ActionSection";
+import Footer from "../components/Footer";
+import TeamSection from "../components/TeamSection";
+import SectionBegin from "../components/SectionBegin";
+import WorkSection from "../components/WorkSection";
+import ServicesSection from "../components/ServicesSection";
+import HeroSection from "../components/HeroSection";
+const Home = () => {
+    return (
+        <>
+        <Header/>
+        <HeroSection/>
+        <ServicesSection/>
+        <WorkSection/>
+        <SectionBegin/>
+        <TeamSection/>
+        <LatestBlog/>
+        <ActionSection/>
+        <Footer/>
+    </>
+    );
+};
+
+export default Home;
