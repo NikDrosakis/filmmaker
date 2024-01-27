@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+
 // eslint-disable-next-line
 const AboutSection = () => {
     useEffect(() => {

@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Preloader from "../components/Preloader";
 import AboutSection from "../components/AboutSection";
-import CounterSection from "../components/CounterSection";
+import CounterBox from "../components/CounterBox";
 import Testimonial from "../components/Testimonial";
 import TeamSection from "../components/TeamSection";
 import Breadcrumb from "../components/Breadcrumb";
@@ -15,7 +15,14 @@ const About = () => {
             <Breadcrumb/>
             <AboutSection />
             <Testimonial />
-            <CounterSection />
+            <section className="counter">
+                <div className="container">
+            <CounterBox number={57} title="Happy Clients" />
+            <CounterBox number={10} title="Completed Projects" />
+            <CounterBox number={33} title="Perspective Clients" />
+            <CounterBox number={33} title="Perspective Clients" />
+                    </div>
+                    </section>
             <TeamSection />
             <Footer />
         </>

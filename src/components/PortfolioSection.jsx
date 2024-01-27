@@ -1,7 +1,11 @@
-import React from 'react';
-// import { Popup } from 'react-magnific-popup';
+import React, { useState }  from 'react';
+import Player from "./Player";
+import PlayButton from "./PlayButton";
 const PortfolioSection = () => {
-
+    const [isOpen, setOpen] = useState(false);
+    function handleChange() {
+        setOpen(!isOpen);
+    }
     return (
         <div className="portfolio spad">
             <div className="container">
@@ -21,9 +25,8 @@ const PortfolioSection = () => {
                     <div className="col-lg-4 col-md-6 col-sm-6 mix branding">
                         <div className="portfolio__item">
                             <div className="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-1.jpg">
-                                <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-                                   className="play-btn video-popup"><i
-                                    className="fa fa-play"></i></a>
+                                <Player url="https://www.youtube.com/watch?v=LXb3EKWsInQ" isOpen={isOpen} close={handleChange} />
+                                <PlayButton click={handleChange} />
                             </div>
                             <div className="portfolio__item__text">
                                 <h4>VIP Auto Tires & Service</h4>
