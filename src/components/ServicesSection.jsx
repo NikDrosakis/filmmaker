@@ -26,7 +26,7 @@ return (
                         <div className="col-lg-6 col-md-6 col-sm-6">
                             <div className="services__item">
                                 <div className="services__item__icon">
-                                    <img src="img/icons/si-1.png" alt=""/>
+                                    <img src="/img/icons/si-1.png" alt=""/>
                                 </div>
                                 <h4>Motion graphics</h4>
                                 <p>
@@ -39,7 +39,7 @@ return (
                         <div className="col-lg-6 col-md-6 col-sm-6">
                             <div className="services__item">
                                 <div className="services__item__icon">
-                                    <img src="img/icons/si-2.png" alt=""/>
+                                    <img src="/img/icons/si-2.png" alt=""/>
                                 </div>
                                 <h4>Scriptwriting and editing</h4>
                                 <p>
@@ -52,7 +52,7 @@ return (
                         <div className="col-lg-6 col-md-6 col-sm-6">
                             <div className="services__item">
                                 <div className="services__item__icon">
-                                    <img src="img/icons/si-3.png" alt=""/>
+                                    <img src="/img/icons/si-3.png" alt=""/>
                                 </div>
                                 <h4>Video distribution</h4>
                                 <p>
@@ -65,7 +65,7 @@ return (
                         <div className="col-lg-6 col-md-6 col-sm-6">
                             <div className="services__item">
                                 <div className="services__item__icon">
-                                    <img src="img/icons/si-4.png" alt=""/>
+                                    <img src="/img/icons/si-4.png" alt=""/>
                                 </div>
                                 <h4>Video hosting</h4>
                                 <p>

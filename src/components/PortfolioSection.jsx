@@ -24,7 +24,7 @@ const PortfolioSection = () => {
                 <div className="row portfolio__gallery">
                     <div className="col-lg-4 col-md-6 col-sm-6 mix branding">
                         <div className="portfolio__item">
-                            <div className="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-1.jpg">
+                            <div className="portfolio__item__video" style={{ backgroundImage:`url("/img/portfolio/portfolio-1.jpg")`}}>
                                 <Player url="https://www.youtube.com/watch?v=LXb3EKWsInQ" isOpen={isOpen} close={handleChange} />
                                 <PlayButton click={handleChange} />
                             </div>
@@ -39,7 +39,7 @@ const PortfolioSection = () => {
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-6 mix digital-marketing">
                         <div className="portfolio__item">
-                            <div className="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-2.jpg">
+                            <div className="portfolio__item__video set-bg"   style={{ backgroundImage:`url("/img/portfolio/portfolio-2.jpg")`}}>
                                 <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
                                    className="play-btn video-popup"><i
                                     className="fa fa-play"></i></a>
@@ -52,7 +52,7 @@ const PortfolioSection = () => {
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-6 mix web">
                         <div className="portfolio__item">
-                            <div className="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-3.jpg">
+                            <div className="portfolio__item__video set-bg" style={{ backgroundImage:`url("/img/portfolio/portfolio-3.jpg")`}}>
                                 <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
                                    className="play-btn video-popup"><i className="fa fa-play"></i></a>
                             </div>
@@ -67,7 +67,7 @@ const PortfolioSection = () => {
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-6 mix photography">
                         <div className="portfolio__item">
-                            <div className="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-4.jpg">
+                            <div className="portfolio__item__video set-bg"   style={{ backgroundImage:`url("/img/portfolio/portfolio-4.jpg")`}}>
                                 <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
                                    className="play-btn video-popup"><i
                                     className="fa fa-play"></i></a>
@@ -83,7 +83,7 @@ const PortfolioSection = () => {
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-6 mix ecommerce">
                         <div className="portfolio__item">
-                            <div className="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-5.jpg">
+                            <div className="portfolio__item__video set-bg" style={{ backgroundImage:`url("/img/portfolio/portfolio-5.jpg")`}}>
                                 <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
                                    className="play-btn video-popup"><i
                                     className="fa fa-play"></i></a>
@@ -96,7 +96,7 @@ const PortfolioSection = () => {
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-6 mix branding">
                         <div className="portfolio__item">
-                            <div className="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-6.jpg">
+                            <div className="portfolio__item__video set-bg"   style={{ backgroundImage:`url("/img/portfolio/portfolio-6.jpg")`}}>
                                 <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
                                    className="play-btn video-popup"><i
                                     className="fa fa-play"></i></a>
@@ -112,7 +112,7 @@ const PortfolioSection = () => {
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-6 mix web">
                         <div className="portfolio__item">
-                            <div className="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-7.jpg">
+                            <div className="portfolio__item__video set-bg"   style={{ backgroundImage:`url("/img/portfolio/portfolio-7.jpg")`}}>
                                 <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
                                    className="play-btn video-popup"><i
                                     className="fa fa-play"></i></a>
@@ -128,7 +128,7 @@ const PortfolioSection = () => {
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-6 mix photography">
                         <div className="portfolio__item">
-                            <div className="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-8.jpg">
+                            <div className="portfolio__item__video set-bg" style={{ backgroundImage:`url("/img/portfolio/portfolio-8.jpg")`}}>
                                 <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
                                    className="play-btn video-popup"><i
                                     className="fa fa-play"></i></a>
@@ -141,7 +141,7 @@ const PortfolioSection = () => {
                     </div>
                     <div className="col-lg-4 col-md-6 col-sm-6 mix ecommerce">
                         <div className="portfolio__item">
-                            <div className="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-9.jpg">
+                            <div className="portfolio__item__video set-bg"   style={{ backgroundImage:`url("/img/portfolio/portfolio-9.jpg")`}}>
                                 <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
                                    className="play-btn video-popup"><i
                                     className="fa fa-play"></i></a>

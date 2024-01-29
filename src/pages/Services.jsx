@@ -4,12 +4,10 @@ import ServicesSection from "../components/ServicesSection";
 import CallToAction from "../components/CallToAction";
 import LogoBegin from "../components/LogoBegin";
 import Footer from "../components/Footer";
-import Preloader from "../components/Preloader";
 import Breadcrumb from "../components/Breadcrumb";
 const Services = () => {
     return  (
         <>
-            <Preloader/>
             <Header/>
             <Breadcrumb/>
             <ServicesSection/>

@@ -15,9 +15,7 @@ const Preloader = () => {
     return (
         <div>
             {loading && <div className="loader">Loading...</div>}
-            <div id="preloader" style={{ display: loading ? 'block' : 'none' }}>
-                Your content goes here...
-            </div>
+            <div id="preloader" style={{ display: loading ? 'block' : 'none' }}></div>
         </div>
     );
 };

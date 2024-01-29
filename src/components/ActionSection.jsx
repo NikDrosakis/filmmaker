@@ -1,7 +1,7 @@
 import React from "react";
 const ActionSection = () => {
     return (
-        <section className="callto spad set-bg" data-setbg="img/callto-bg.jpg">
+        <section className="callto spad set-bg" style={{ backgroundImage:`url("/img/callto-bg.jpg")`}}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-8">

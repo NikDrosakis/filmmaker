@@ -1,7 +1,7 @@
 import React from "react";
 const TeamSection = () => {
     return (
-        <section className="team spad set-bg" data-setbg="img/team-bg.jpg">
+        <section className="team spad set-bg"  style={{ backgroundImage:`url("/img/team-bg.jpg")`}}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
@@ -13,7 +13,7 @@ const TeamSection = () => {
                 </div>
                 <div className="row">
                     <div className="col-lg-3 col-md-6 col-sm-6 p-0">
-                        <div className="team__item set-bg" data-setbg="img/team/team-1.jpg">
+                        <div className="team__item set-bg" style={{ backgroundImage:`url("/img/team-1.jpg")`}}>
                             <div className="team__item__text">
                                 <h4>AMANDA STONE</h4>
                                 <p>Videographer</p>
@@ -27,7 +27,7 @@ const TeamSection = () => {
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-6 p-0">
-                        <div className="team__item team__item--second set-bg" data-setbg="img/team/team-2.jpg">
+                        <div className="team__item team__item--second set-bg" style={{ backgroundImage:`url("/img/team-2.jpg")`}}>
                             <div className="team__item__text">
                                 <h4>AMANDA STONE</h4>
                                 <p>Videographer</p>
@@ -41,7 +41,7 @@ const TeamSection = () => {
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-6 p-0">
-                        <div className="team__item team__item--third set-bg" data-setbg="img/team/team-3.jpg">
+                        <div className="team__item team__item--third set-bg" style={{ backgroundImage:`url("/img/team-3.jpg")`}}>
                             <div className="team__item__text">
                                 <h4>AMANDA STONE</h4>
                                 <p>Videographer</p>
@@ -55,7 +55,7 @@ const TeamSection = () => {
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-6 p-0">
-                        <div className="team__item team__item--four set-bg" data-setbg="img/team/team-4.jpg">
+                        <div className="team__item team__item--four set-bg" style={{ backgroundImage:`url("/img/team-4.jpg")`}}>
                             <div className="team__item__text">
                                 <h4>AMANDA STONE</h4>
                                 <p>Videographer</p>

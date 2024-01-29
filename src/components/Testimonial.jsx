@@ -5,7 +5,7 @@ import React from 'react';
 
 const Testimonial = () => {
     return (
-        <section className="testimonial spad set-bg" data-setbg="img/testimonial-bg.jpg">
+        <section className="testimonial spad set-bg" style={{ backgroundImage:`url("/img/hero/testimonial-bg.jpg")` }}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
@@ -16,7 +16,7 @@ const Testimonial = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div class="testimonial__slider owl-carousel">
+                    <div className="testimonial__slider owl-carousel">
                         <div className="col-lg-4">
                             <div className="testimonial__item">
                                 <div className="testimonial__text">
